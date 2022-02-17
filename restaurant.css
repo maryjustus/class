@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+    box-shadow: 0 4px 8px;
+    height: 100px;
+    background-color: rgb(63, 3, 3);
+}
+li a{
+    color: rgb(247, 158, 25);
+    list-style: none;
+}
+.bg-body div{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.bg-body div p sub{
+    font-size: 30px;
+    margin: auto;
+    color: rgb(68, 59, 59);
+
+}
+.bg-body div h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: rgb(24, 21, 21);
+}
+.logo{
+    width: 100px;
+  
+}
+
+img{
+    width: 100%;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.nav-links a{
+    text-decoration: none;
+   
+    font-weight: 600;
+}
+.bg-body{
+    background-image: url(./italian-cuisine-ge4a6580b8_640.jpg);
+    height: calc(100vh - 100px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
